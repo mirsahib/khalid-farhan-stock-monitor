@@ -1,0 +1,65 @@
+[
+    {
+        "#": "8",
+        "TRADING CODE": "ACI",
+        "NAME": "ACI Limited",
+        "LTP*": "286.43",
+        "VOLUME": "175"
+    },
+    {
+        "#": "72",
+        "TRADING CODE": "BSCCL",
+        "NAME": "Bangladesh Submarine Cable Company Limited",
+        "LTP*": "202",
+        "VOLUME": "245"
+    },
+    {
+        "#": "172",
+        "TRADING CODE": "IFADAUTOS",
+        "NAME": "IFAD Autos Limited ",
+        "LTP*": "45.12",
+        "VOLUME": "1000"
+    },
+    {
+        "#": "260",
+        "TRADING CODE": "ORIONPHARM",
+        "NAME": "Orion Pharma Ltd",
+        "LTP*": "96.98",
+        "VOLUME": "500"
+    },
+    {
+        "#": "291",
+        "TRADING CODE": "PTL",
+        "NAME": "Paramount Textile Limited ",
+        "LTP*": "93.78",
+        "VOLUME": "500"
+    },
+    {
+        "#": "317",
+        "TRADING CODE": "SAIFPOWER",
+        "NAME": "Saif Powertec Limited",
+        "LTP*": "38.89",
+        "VOLUME": "1200"
+    },
+    {
+        "#": "355",
+        "TRADING CODE": "SQURPHARMA",
+        "NAME": "Square Pharmaceuticals Ltd.",
+        "LTP*": "218.9",
+        "VOLUME": "335"
+    },
+    {
+        "#": "361",
+        "TRADING CODE": "SUMITPOWER",
+        "NAME": "Summit Power Limited",
+        "LTP*": "38.89",
+        "VOLUME": "1200"
+    },
+    {
+        "#": "387",
+        "TRADING CODE": "WALTONHIL",
+        "NAME": "Walton Hi-Tech Industries Ltd",
+        "LTP*": "1058",
+        "VOLUME": "40"
+    }
+]
