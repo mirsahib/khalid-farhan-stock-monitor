@@ -44,7 +44,7 @@ function main() {
                     stockData.push(stockInfo);
                 }
             });
-            fs.writeFileSync("stockData.json", JSON.stringify(stockData));
+            // fs.writeFileSync("stockData.json", JSON.stringify(stockData));
         })
         .catch((err) => {
             console.log(err);
