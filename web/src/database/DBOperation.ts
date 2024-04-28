@@ -9,6 +9,12 @@ export const insertData = async (client: MongoClient, data: StockData[]) => {
     console.log(`A document was inserted with the _id: ${result.insertedId}`);
 }
 
+export const readData = async (client: MongoClient) => {
+    const database = client.db("khalid-maklul-portfolio")
+    const stock_data = database.collection("stock_data")
+    return await stock_data.find({}).toArray()
+}
+
 export const createDbConnection = async () => {
     const mongouri = process.env.MONGODB_URI
     try {
