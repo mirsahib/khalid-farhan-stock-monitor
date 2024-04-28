@@ -2,7 +2,9 @@
 
 export function calculateProfitAndLoss(pastData: StockData[], currentData: StockData[]): StockSummary[] {
     const stockSummary: StockSummary[] = [];
-
+    if (currentData.length !== pastData.length) {
+        return stockSummary;
+    }
     pastData.forEach((pastStock, index) => {
         const currentStock = currentData[index];
 
@@ -19,8 +21,8 @@ export function calculateProfitAndLoss(pastData: StockData[], currentData: Stock
             "Volume": pastStock["VOLUME"],
             "Past Valuation": pastValuation,
             "Current LTP": currentStock["LTP*"],
-            "Current Valuation": currentValuation,
-            "Net P/L": netProfitLoss,
+            "Current Valuation": Number(currentValuation.toFixed(2)),
+            "Net P/L": Number(netProfitLoss.toFixed(2)),
             "% P/L": `${percentageProfitLoss}%`,
         };
 

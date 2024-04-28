@@ -5,6 +5,7 @@ type AppTableProps = {
     CurrentStock: StockData[];
 };
 function AppTable({ Stock, CurrentStock }: AppTableProps) {
+    console.log("🚀 ~ AppTable ~ CurrentStock:", CurrentStock);
     const stockSummary = calculateProfitAndLoss(Stock, CurrentStock);
     return (
         <table className="min-w-full bg-white border border-gray-300 shadow-md">
